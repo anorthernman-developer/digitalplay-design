@@ -1,0 +1,80 @@
+{
+  "$schema": "./catalogue.schema.json",
+  "section": "design",
+  "sectionName": "Design",
+  "repo": "https://github.com/anorthernman-developer/digitalplay-design",
+  "tools": [
+    {
+      "slug": "grid-kit",
+      "num": "01",
+      "title": "Grid Kit",
+      "summary": "A poster maker built on a modular grid. Type your own words, set columns, rows, margins and a type scale, then drag blocks between grid cells until the layout clicks.",
+      "whatYouDo": "Write a headline, a line of detail and some body text, choose a grid and a scale, drag blocks to snap to cells, export a PNG.",
+      "subcategory": "Layout and grids",
+      "techniques": [
+        "modular grid",
+        "type scale",
+        "hierarchy",
+        "alignment",
+        "white space"
+      ],
+      "movement": "Modernist grid design (1950s–60s)",
+      "inspiredBy": [
+        "Mid-century modernist poster design",
+        "Classical page proportions"
+      ],
+      "skillLevel": "getting-going",
+      "input": [
+        "your-words"
+      ],
+      "output": [
+        "image-png",
+        "json-preset"
+      ],
+      "sessionLength": "15-min",
+      "ai": "no-ai",
+      "era": "1946-1979",
+      "added": "2026-11-01",
+      "section": "design",
+      "file": "tools/grid-kit.html",
+      "repo": "https://github.com/anorthernman-developer/digitalplay-design"
+    },
+    {
+      "slug": "palette-lab",
+      "num": "02",
+      "title": "Palette Lab",
+      "summary": "Build a colour palette from one colour you like or from a photo of your own, then check every pairing for readable contrast before you use it.",
+      "whatYouDo": "Pick a base colour or load a photo, choose a harmony, lock the swatches you love, shuffle the rest, and export CSS, JSON or a PNG strip.",
+      "subcategory": "Colour",
+      "techniques": [
+        "colour harmony",
+        "contrast checking",
+        "accessibility",
+        "palette from a photo"
+      ],
+      "movement": "Colour theory from the colour wheel (1700s) to Bauhaus colour teaching (1920s)",
+      "inspiredBy": [
+        "The colour wheel, first drawn in the early 1700s",
+        "Bauhaus colour courses (1920s)",
+        "WCAG contrast guidance"
+      ],
+      "skillLevel": "first-go",
+      "input": [
+        "your-images",
+        "your-choices"
+      ],
+      "output": [
+        "css",
+        "json-preset",
+        "image-png"
+      ],
+      "sessionLength": "5-min",
+      "ai": "no-ai",
+      "era": "before-1900",
+      "added": "2026-11-01",
+      "section": "design",
+      "file": "tools/palette-lab.html",
+      "repo": "https://github.com/anorthernman-developer/digitalplay-design"
+    }
+  ]
+}
